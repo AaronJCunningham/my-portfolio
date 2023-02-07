@@ -16,7 +16,7 @@ export function Footer({}) {
         </a>
         <a
           className="footer_icon"
-          href="https://www.instagram.com/aaron.j.cunningham/"
+          href="https://www.instagram.com/aaron.j.cunningham"
           target="_blank"
           rel="noreferrer"
         >
