@@ -37,7 +37,7 @@ export function Footer({}) {
           target="_blank"
           rel="norefferrer"
         >
-          XELEVEN Metaverse Studio
+          XELEVEN Metaverse & Web3 Studio
         </a>{" "}
         - 2022
       </p>
