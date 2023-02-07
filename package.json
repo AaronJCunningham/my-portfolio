@@ -9,9 +9,6 @@
     "start": "next start",
     "lint": "next lint"
   },
-  "engines": {
-    "node": "16.x"
-  },
   "dependencies": {
     "@react-three/drei": "^8.18.10",
     "@react-three/fiber": "^7.0.26",
@@ -24,7 +21,6 @@
     "react-icons": "^4.4.0",
     "sass": "^1.49.9",
     "three": "^0.138.3",
-    "three-plain-animator": "^1.0.6",
     "zustand": "^4.0.0-rc.1"
   },
   "devDependencies": {

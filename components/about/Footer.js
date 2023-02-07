@@ -35,7 +35,7 @@ export function Footer({}) {
           className="reverse-link"
           href="https://xeleven.tech"
           target="_blank"
-          rel="norefferrer"
+          rel="noreferrer"
         >
           XELEVEN Metaverse & Web3 Studio
         </a>{" "}
