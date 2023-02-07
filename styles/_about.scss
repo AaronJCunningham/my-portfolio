@@ -1,0 +1,176 @@
+main,
+html {
+  margin: 0;
+  padding: 0;
+  background-color: $base-color;
+  height: 100%;
+}
+
+#about {
+  margin: 0;
+  padding: 0;
+  color: $light-color;
+}
+
+#title {
+  display: flex;
+  flex-direction: row;
+  padding-left: 10px;
+  height: 60px;
+  align-items: center;
+}
+
+#icons {
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: row;
+  // justify-content: center;
+  align-items: center;
+  color: $light-color;
+}
+
+.icon {
+  margin: 5px;
+  text-decoration: none;
+  color: $light-color;
+}
+.about_container {
+  padding: 20px;
+  min-height: 100%;
+  margin: 0 auto -50px;
+  position: relative;
+}
+
+.about-content-container {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  margin: auto;
+}
+
+.about_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+  padding-bottom: 50px;
+  width: 95%;
+  height: 100%;
+  max-width: 1200px;
+  margin: auto;
+  position: relative;
+  z-index: 200;
+  pointer-events: none;
+}
+
+.about-canvas {
+  height: 100vh;
+  width: 99vw;
+  margin: auto;
+  position: absolute;
+  top: 0;
+}
+
+.about_header {
+  padding-top: 110px;
+  padding-bottom: 40px;
+  margin: 0;
+  font-size: 8rem;
+  font-weight: 200;
+}
+
+.about_description {
+  padding-top: 30px;
+}
+
+p {
+  padding-top: 10px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1.4rem;
+}
+h1 {
+  color: $light-color;
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+
+h2 {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+footer {
+  background-color: $light-color;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  h3 {
+    font-size: 3rem;
+    color: $base-color;
+    margin: 4px;
+    margin-top: 40px;
+  }
+
+  p {
+    color: $base-color;
+    padding: 0;
+    margin: 0;
+  }
+
+  #footer_icons {
+    font-size: 2rem;
+    padding-bottom: 50px;
+    padding-top: 30px;
+    h3 {
+      font-size: 2.5rem;
+      margin: 0;
+      padding: hpx;
+    }
+    p {
+      padding-bottom: 30px;
+    }
+  }
+
+  .footer_icon {
+    color: $base-color;
+    text-decoration: none;
+    margin: 0;
+    padding: 5px;
+  }
+
+  #copyright {
+    padding-bottom: 30px;
+  }
+}
+
+.email {
+  color: $base-color;
+  padding: 10px;
+}
+
+.radio-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.radio {
+  padding: 20px;
+}
+
+.radio input {
+  cursor: pointer;
+  background-color: $light-color;
+}

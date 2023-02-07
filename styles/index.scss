@@ -1,0 +1,153 @@
+@import "config.scss";
+@import "about.scss";
+@import "image_grid.scss";
+@import "news.scss";
+@import "thumbnail_container.scss";
+@import "grid.scss";
+
+body,
+main,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+p {
+  font-weight: 100;
+}
+
+a {
+  color: $light-color;
+  cursor: pointer;
+}
+
+a:hover {
+  color: $accent-color;
+}
+
+.reverse-link {
+  color: $base-color;
+}
+
+span {
+  color: $accent-color;
+}
+
+.styled {
+  border-top: 1px dashed $light-color;
+}
+
+h2 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  margin: 10px 0;
+}
+
+.bio-h2 {
+  font-size: 5rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+#canvas {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.about_button {
+  color: $light-color;
+  position: absolute;
+  z-index: 20;
+  font-size: 2rem;
+  font-weight: 900;
+  right: 10px;
+  top: 10px;
+  margin: 0px;
+  cursor: pointer;
+  width: 150px;
+  height: auto;
+}
+
+.scroll_down {
+  width: 100%;
+  color: $light-color;
+  font-size: 0.7rem;
+  line-height: 1rem;
+  justify-content: center;
+  text-align: center;
+}
+
+.about_button {
+  color: $light-color;
+  position: absolute;
+  z-index: 20;
+  font-size: 2rem;
+  font-weight: 900;
+  right: 10px;
+  top: 10px;
+  margin: 0px;
+  cursor: pointer;
+  width: 150px;
+}
+
+.welcome_container {
+  position: absolute;
+  margin: auto;
+  height: 50vh;
+  width: 99vw;
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  h1 {
+    color: $accent-color;
+    text-transform: uppercase;
+  }
+}
+
+h1 {
+  color: $accent-color;
+  text-transform: uppercase;
+}
+
+.welcome_message {
+  padding: 2rem;
+  h2 {
+    color: $light-color;
+  }
+}
+
+.loading_numbers {
+  padding-top: 80px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .about_button {
+    width: 100px;
+  }
+
+  .bio-h2 {
+    font-size: 5rem;
+  }
+}
+@media only screen and (max-width: 850px) {
+  .about_button {
+    width: 100px;
+  }
+
+  .bio-h2 {
+    font-size: 3rem;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .about_button {
+    width: 100px;
+  }
+
+  .bio-h2 {
+    font-size: 2rem;
+  }
+}

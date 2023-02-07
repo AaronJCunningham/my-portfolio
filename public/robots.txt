@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://xeleven.tech/
+
+# Sitemaps
+Sitemap: https://xeleven.tech/sitemap.xml

@@ -1,0 +1,117 @@
+.thumbnail_container {
+  margin: 10px 0;
+  overflow: hidden;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr;
+  padding-bottom: 6rem;
+  color: $light-color;
+}
+
+.thumnail_image_container {
+  grid-row: 1;
+  grid-column: 1;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.inner_image {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.content_container {
+  grid-row: 1;
+  grid-column: 2;
+  overflow: hidden;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner_content {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  h2 {
+    text-align: center;
+  }
+}
+
+.thumbnail_title {
+  font-size: 2.5rem;
+  text-transform: capitalize;
+}
+
+@media only screen and (max-width: 850px) {
+  .thumbnail_container {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr;
+    padding-bottom: 2rem;
+  }
+  .thumnail_image_container {
+    grid-row: 1;
+    grid-column: 1;
+  }
+  .content_container {
+    grid-row: 2;
+    grid-column: 1;
+  }
+
+  .thumbnail_title {
+    font-size: 1.8rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .thumbnail_container {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr;
+    padding-bottom: 2rem;
+  }
+  .thumnail_image_container {
+    grid-row: 1;
+    grid-column: 1;
+  }
+  .content_container {
+    grid-row: 2;
+    grid-column: 1;
+  }
+
+  .thumbnail_title {
+    font-size: 1.2rem;
+  }
+}
+
+.link_cursor {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+  font-size: 1.5rem;
+  text-decoration: none;
+  border-bottom: 1px solid $light-color;
+}
+
+button:hover {
+  color: $accent-color;
+}
