@@ -1,5 +1,5 @@
 const config = {
-  siteUrl: "https://xeleven.tech/",
+  siteUrl: "https://aaronjcunningham.com/",
   generateRobotsTxt: true, // (optional)
   generateIndexSitemap: false,
   // ...other options
