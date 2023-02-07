@@ -7,9 +7,4 @@ const useStore = create(() => {
   };
 });
 
-export const useSelect = create((set) => ({
-  select: null,
-  setSelect: (select) => set({ select }),
-}));
-
 export default useStore;

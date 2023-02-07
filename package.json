@@ -9,6 +9,9 @@
     "start": "next start",
     "lint": "next lint"
   },
+  "engines": {
+    "node": "16.x"
+  },
   "dependencies": {
     "@react-three/drei": "^8.18.10",
     "@react-three/fiber": "^7.0.26",
