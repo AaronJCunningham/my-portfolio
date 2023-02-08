@@ -1,3 +1,5 @@
+import Script from "next/script";
+
 import { Bio } from "../components/about/Bio";
 import { Footer } from "../components/about/Footer";
 import MetaDataHeader from "../components/MetaDataHeader";
