@@ -19,7 +19,7 @@ const About = ({ posts }) => {
           window.dataLayer = window.dataLayer || [];
           function gtag(){window.dataLayer.push(arguments);}
           gtag('js', new Date());
-          gtag('config', 'G-363JP1BQ7R');
+          gtag('config', 'GA_MEASUREMENT_ID');
         `}
       </Script>
       <main id="about">
