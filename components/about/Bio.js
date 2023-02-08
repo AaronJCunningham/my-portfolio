@@ -10,7 +10,7 @@ export function Bio() {
       </h2>
 
       <p>
-        In my mind the lines between art & technolody are blurred. Emerging
+        In my mind the lines between art & technology are blurred. Emerging
         technology are what inspires me to create.
       </p>
     </div>
