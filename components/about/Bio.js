@@ -11,7 +11,7 @@ export function Bio() {
 
       <p>
         In my mind the lines between art & technolody are blurred. Emerging
-        technolody are what inspires me to create.
+        technology are what inspires me to create.
       </p>
     </div>
   );
