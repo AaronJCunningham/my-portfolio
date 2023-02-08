@@ -11,7 +11,7 @@ const About = ({ posts }) => {
     <>
       <MetaDataHeader title={"Home"} />
       <Script
-        src="https://www.googletagmanager.com/gtag/js?id=G-G-363JP1BQ7R"
+        src="https://www.googletagmanager.com/gtag/js?id=G-363JP1BQ7R"
         strategy="afterInteractive"
       />
       <Script id="google-analytics" strategy="afterInteractive">
@@ -19,7 +19,7 @@ const About = ({ posts }) => {
           window.dataLayer = window.dataLayer || [];
           function gtag(){window.dataLayer.push(arguments);}
           gtag('js', new Date());
-          gtag('config', 'GA_MEASUREMENT_ID');
+          gtag('config', 'G-363JP1BQ7R');
         `}
       </Script>
       <main id="about">
