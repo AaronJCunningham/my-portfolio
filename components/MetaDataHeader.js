@@ -1,8 +1,7 @@
 import Head from "next/head";
 
 const MetaDataHeader = ({
-  title = "Home",
-  content = "We use our experience with 3D software and full stack blockchain development to build immersive metaverse websites, generative NFT collections, and animated 3D content.",
+  content = "Aaron J. Cunningham is a frontend developer specializing in metaverse & web3.",
   image = "https://ik.imagekit.io/fx30u3wgcqib/desktop_J3mnPtJoj.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1675814941001",
 }) => {
   return (
@@ -10,11 +9,7 @@ const MetaDataHeader = ({
       <title>{`Aaron J. Cunningham`}</title>
       <meta name="twitter:card" content="summary_large_image" />
       <meta property="og:url" content="https://aaronjcunningham.com" />
-      <meta
-        property="og:title"
-        content={`Aaron J. Cunningham - ${title}`}
-        key="title"
-      />
+      <meta property="og:title" content={`Aaron J. Cunningham`} key="title" />
       <meta property="og:description" content={content} />
       <meta name="yandex-verification" content="b1955c77c853f21f" />
       <meta property="og:image" content={image} />

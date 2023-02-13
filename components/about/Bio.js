@@ -6,7 +6,7 @@ export function Bio() {
     <div id="bio" className="about_content">
       <h2 className="bio-h2">
         Aaron J.<span> Cunningham</span> Metaverse, Web3 &<br />
-        <span> Front End</span>
+        <span> Frontend</span>
       </h2>
 
       <p>
