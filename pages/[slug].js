@@ -24,7 +24,7 @@ export default function DynamicNews({ post }) {
         content={post[0]?.yoast_head_json.og_description}
         image={post[0]?.better_featured_image?.source_url}
       />
-      <Link href="/about" passHref>
+      <Link href="/" passHref>
         <h1 className="about_button">HOME</h1>
       </Link>
       <div className="about_container" ref={ref}>
