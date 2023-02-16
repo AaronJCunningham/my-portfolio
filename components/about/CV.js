@@ -1,6 +1,6 @@
 export const CV = () => {
   return (
-    <div id="bio" className="about_content">
+    <div id="bio" className="bio_content">
       <h2 className="bio-h2">BIO</h2>
       <p>
         As a frontend developer, my expertise lies in the development of

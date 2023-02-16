@@ -56,7 +56,6 @@ html {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-
   padding-bottom: 50px;
   width: 95%;
   height: 100%;
@@ -65,6 +64,18 @@ html {
   position: relative;
   z-index: 200;
   pointer-events: none;
+}
+.bio_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-bottom: 50px;
+  width: 95%;
+  height: 100%;
+  max-width: 1200px;
+  margin: auto;
+  position: relative;
 }
 
 .about-canvas {
