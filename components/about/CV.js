@@ -37,7 +37,12 @@ export const CV = () => {
         <a href="https://bauhauserde.org" target="_blank" rel="noreferrer">
           Bauhaus Earth
         </a>
-        . We recently built our own metaverse called the Spirit Realm.
+        . We recently built our own metaverse called the{" "}
+        <a href="https://bauhauserde.org" target="_blank" rel="noreferrer">
+          Spirit Realm
+        </a>
+        . I believe that Spirit Realm best represents what I am capable of
+        creating.
       </p>
     </div>
   );
