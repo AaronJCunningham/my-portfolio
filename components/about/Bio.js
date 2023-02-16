@@ -1,5 +1,4 @@
 import React from "react";
-import Link from "next/link";
 
 export function Bio() {
   return (
@@ -8,11 +7,6 @@ export function Bio() {
         Aaron J.<span> Cunningham</span> Metaverse, Web3 &<br />
         <span> Frontend</span>
       </h2>
-
-      <p>
-        In my mind the lines between art & technology are blurred. Emerging
-        technology are what inspires me to create.
-      </p>
     </div>
   );
 }
