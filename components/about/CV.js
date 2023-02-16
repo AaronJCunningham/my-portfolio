@@ -4,7 +4,7 @@ export const CV = () => {
       <h2 className="bio-h2">BIO</h2>
       <p>
         As a frontend developer, my expertise lies in the development of
-        blockchain, Web 3.0, and metaverse applications. With a unique blend of
+        blockchain, web3, and metaverse applications. With a unique blend of
         artistic and technical skills, I excel at crafting highly engaging
         online experiences.
       </p>
@@ -14,7 +14,7 @@ export const CV = () => {
         exchange, and IOST, a proof-of-stake blockchain platform based in Asia.
       </p>
       <p>
-        Currently, my focus is on Web 3.0 and metaverse development. In 2022 I
+        Currently, my focus is on web3 and metaverse development. In 2022 I
         helped RaveSpace, one of the world&apos;s leading metaverse development
         studios, launch their Musee Dezentral project, a museum dedicated to
         NFTS.
