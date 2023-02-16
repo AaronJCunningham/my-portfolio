@@ -10,12 +10,12 @@ export const CV = () => {
       </p>
       <p>
         Throughout my career, I have worked for several prominent blockchain
-        companies, including Coinsquare, Canada's largest cryptocurrency
+        companies, including Coinsquare, Canada&apos;s largest cryptocurrency
         exchange, and IOST, a proof-of-stake blockchain platform based in Asia.
       </p>
       <p>
         Currently, my focus is on Web 3.0 and metaverse development. In 2022 I
-        helped RaveSpace, one of the world's leading metaverse development
+        helped RaveSpace, one of the world&apos;s leading metaverse development
         studios, launch their Musee Dezentral project, a museum dedicated to
         NFTS.
       </p>
