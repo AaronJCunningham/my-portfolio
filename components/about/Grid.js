@@ -22,8 +22,6 @@ export const Grid = ({ posts }) => {
       <CV />
       <div id="bio" className="about_content">
         <h2 className="bio-h2">PROJECTS & BLOG</h2>
-      </div>
-      <div className="about_content">
         <p>
           Here are a few of my recent projects, as well as some of my thoughts
           that I write for my blog.
