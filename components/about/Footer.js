@@ -8,7 +8,7 @@ export function Footer({}) {
       <div id="footer_icons">
         <a
           className="footer_icon"
-          href="https://twitter.com/xelevendottech"
+          href="https://twitter.com/aaron_1337"
           target="_blank"
           rel="noreferrer"
         >
