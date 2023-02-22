@@ -30,6 +30,7 @@
   left: 30px;
   font-size: 1.5rem;
   text-decoration: none;
+  color: $light-color;
   border-bottom: 1px solid $light-color;
 }
 
@@ -39,6 +40,7 @@
   right: 30px;
   font-size: 1.5rem;
   text-decoration: none;
+  color: $light-color;
   border-bottom: 1px solid $light-color;
 }
 
@@ -50,7 +52,7 @@
   width: 90%;
   max-width: 900px;
   height: auto;
-  font-size: 1.7rem;
+  font-size: 1rem;
   padding-top: 40px;
   padding-bottom: 40px;
   display: inline;
@@ -101,7 +103,7 @@ p {
   color: $light-color;
 }
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 1150px) {
   .left_link {
     display: none;
   }
