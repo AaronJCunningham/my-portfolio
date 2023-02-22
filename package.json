@@ -13,6 +13,7 @@
     "@react-three/drei": "^8.18.10",
     "@react-three/fiber": "^7.0.26",
     "axios": "^0.27.2",
+    "gsap": "^3.11.4",
     "next": "12.1.0",
     "next-rum": "^1.2.0",
     "next-sitemap": "^3.0.5",

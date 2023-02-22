@@ -8,3 +8,8 @@ const useStore = create(() => {
 });
 
 export default useStore;
+
+export const useSelect = create((set) => ({
+  select: null,
+  setSelect: (select) => set({ select }),
+}));

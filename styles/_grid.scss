@@ -42,6 +42,15 @@
     background-color: $accent-color;
     color: $light-color;
   }
+  .active {
+    background-color: $accent-color;
+    color: $light-color;
+  }
+
+  button:first-of-type:focus {
+    background-color: $accent-color;
+    color: $light-color;
+  }
 }
 
 @media only screen and (max-width: 1000px) {
