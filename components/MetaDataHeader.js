@@ -17,7 +17,11 @@ const MetaDataHeader = ({
       <title>{`${title} - Aaron J. Cunningham`}</title>
       <meta name="twitter:card" content="summary_large_image" />
       <meta property="og:url" content="https://aaronjcunningham.com" />
-      <meta property="og:title" content={`Aaron J. Cunningham`} key="title" />
+      <meta
+        property="og:title"
+        content={`${title} - Aaron J. Cunningham`}
+        key="title"
+      />
       <meta property="og:description" content={content} />
       <meta name="yandex-verification" content="b1955c77c853f21f" />
       <meta property="og:image" content={image} />
