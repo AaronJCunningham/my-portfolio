@@ -1,12 +1,12 @@
 export const CV = () => {
   return (
     <div id="bio" className="bio_content">
-      <h2 className="bio-h2">BIO</h2>
+      <h2 className="bio-h2">ABOUT ME</h2>
       <p>
-        As a frontend developer, my expertise lies in the development of
-        blockchain, web3, and metaverse applications. With a unique blend of
-        artistic and technical skills, I excel at crafting highly engaging
-        online experiences.
+        As a frontend developer, my expertise lies in the development of web3
+        and metaverse applications. With a unique blend of artistic and
+        technical skills, I excel at crafting highly engaging online
+        experiences.
       </p>
       <p>
         Throughout my career, I have worked for several prominent blockchain
