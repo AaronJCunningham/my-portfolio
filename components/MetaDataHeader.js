@@ -4,6 +4,7 @@ import { useRouter } from "next/router";
 const MetaDataHeader = ({
   content = "Aaron J. Cunningham is a frontend developer specializing in metaverse & web3.",
   image = "https://ik.imagekit.io/fx30u3wgcqib/desktop_J3mnPtJoj.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1675814941001",
+  title = "home",
 }) => {
   const router = useRouter();
   const canonicalUrl = (
@@ -13,7 +14,7 @@ const MetaDataHeader = ({
 
   return (
     <Head>
-      <title>{`Aaron J. Cunningham`}</title>
+      <title>{`${title} - Aaron J. Cunningham`}</title>
       <meta name="twitter:card" content="summary_large_image" />
       <meta property="og:url" content="https://aaronjcunningham.com" />
       <meta property="og:title" content={`Aaron J. Cunningham`} key="title" />
