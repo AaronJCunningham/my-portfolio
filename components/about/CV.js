@@ -17,7 +17,7 @@ export const CV = () => {
         Currently, my focus is on web3 and metaverse development. In 2022 I
         helped RaveSpace, one of the world&apos;s leading metaverse development
         studios, launch their Musee Dezentral project, a museum dedicated to
-        NFTS.
+        NFTs.
       </p>
       <p>
         Now, I run my own{" "}

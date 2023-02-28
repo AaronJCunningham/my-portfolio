@@ -17,6 +17,11 @@ export const GridItem = ({ post }) => {
     gsap.to(bgRef.current, { "background-color": "#191919", duration: 0.3 });
     gsap.to(bgRef.current, { scale: 1, duration: 0.3 });
   };
+
+  const handleClick = () => {
+    gsap.to(bgRef.current, { "background-color": "#797979", duration: 0.3 });
+  };
+
   console.log(gridRef.current);
   return (
     <Link href={`/${post?.slug}`}>
@@ -26,6 +31,7 @@ export const GridItem = ({ post }) => {
         key={post?.slug}
         onMouseEnter={handleIn}
         onMouseLeave={handleOut}
+        onClick={handleClick}
       >
         <div className="title-container">
           <h4>{post?.title.rendered}</h4>

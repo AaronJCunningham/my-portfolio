@@ -10,16 +10,17 @@ main,
 html {
   margin: 0;
   padding: 0;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 p {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 100;
 }
 
 a {
   color: $accent-color;
   cursor: pointer;
+  text-decoration: none;
 }
 
 a:hover {
@@ -46,6 +47,7 @@ h2 {
 
 .bio-h2 {
   font-size: 5rem;
+  line-height: 4.5rem;
   font-weight: 900;
   text-transform: uppercase;
   margin: 0;
@@ -54,20 +56,6 @@ h2 {
 #canvas {
   height: 100vh;
   overflow: hidden;
-}
-
-.about_button {
-  color: $light-color;
-  position: absolute;
-  z-index: 20;
-  font-size: 2rem;
-  font-weight: 900;
-  right: 10px;
-  top: 10px;
-  margin: 0px;
-  cursor: pointer;
-  width: 150px;
-  height: auto;
 }
 
 .scroll_down {
@@ -90,6 +78,9 @@ h2 {
   margin: 0px;
   cursor: pointer;
   width: 150px;
+  h1:hover {
+    color: $accent-color;
+  }
 }
 
 .welcome_container {
@@ -132,6 +123,7 @@ h1 {
 
   .bio-h2 {
     font-size: 5rem;
+    line-height: 4.5rem;
   }
 }
 @media only screen and (max-width: 850px) {
@@ -141,6 +133,7 @@ h1 {
 
   .bio-h2 {
     font-size: 3rem;
+    line-height: 2.5rem;
   }
 }
 @media only screen and (max-width: 500px) {
@@ -150,5 +143,6 @@ h1 {
 
   .bio-h2 {
     font-size: 2rem;
+    line-height: 2remrem;
   }
 }
