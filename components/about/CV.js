@@ -9,6 +9,10 @@ export const CV = () => {
         experiences.
       </p>
       <p>
+        I love building immersive web apps with Three.js and @react-three/fiber
+        inside Next.js and React.
+      </p>
+      <p>
         Throughout my career, I have worked for several prominent blockchain
         companies, including Coinsquare, Canada&apos;s largest cryptocurrency
         exchange, and IOST, a proof-of-stake blockchain platform based in Asia.
@@ -19,10 +23,7 @@ export const CV = () => {
         development studios, launch their Musee Dezentral project, a museum
         dedicated to NFTs.
       </p>
-      <p>
-        I love developing with Three.js and @react-three/fiber inside Next.js
-        and React.
-      </p>
+
       <p>
         Now, I run my own{" "}
         <a href="https://xeleven.tech" target="_blank" rel="noreferrer">
