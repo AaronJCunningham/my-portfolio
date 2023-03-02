@@ -14,10 +14,14 @@ export const CV = () => {
         exchange, and IOST, a proof-of-stake blockchain platform based in Asia.
       </p>
       <p>
-        Currently, my focus is on web3 and metaverse development. In 2022 I
-        helped RaveSpace, one of the world&apos;s leading metaverse development
-        studios, launch their Musee Dezentral project, a museum dedicated to
-        NFTs.
+        Currently, my focus is on web3 and browser-based metaverse development.
+        In 2022 I helped RaveSpace, one of the world&apos;s leading metaverse
+        development studios, launch their Musee Dezentral project, a museum
+        dedicated to NFTs.
+      </p>
+      <p>
+        I love developing with Three.js and @react-three/fiber inside Next.js
+        and React.
       </p>
       <p>
         Now, I run my own{" "}
