@@ -31,7 +31,11 @@ export const CV = () => {
         </a>
         , where we specialize in building immersive 3D metaverse sites for
         clients such as{" "}
-        <a href="https://xeleven.tech" target="_blank" rel="noreferrer">
+        <a
+          href="https://theface.com/tiffany-calvers-world"
+          target="_blank"
+          rel="noreferrer"
+        >
           Nike
         </a>
         ,{" "}
@@ -43,7 +47,7 @@ export const CV = () => {
           Bauhaus Earth
         </a>
         . We recently built our own metaverse called the{" "}
-        <a href="https://bauhauserde.org" target="_blank" rel="noreferrer">
+        <a href="https://spiritrealm.art" target="_blank" rel="noreferrer">
           Spirit Realm
         </a>
         . I believe that Spirit Realm best represents what I am capable of
