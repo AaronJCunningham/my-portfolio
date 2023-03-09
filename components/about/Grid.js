@@ -38,7 +38,13 @@ export const Grid = ({ posts }) => {
           className={select === 4 ? "active" : null}
           onClick={() => setSelect(4)}
         >
-          Blog
+          News
+        </button>
+        <button
+          className={select === 8 ? "active" : null}
+          onClick={() => setSelect(8)}
+        >
+          Tutorials
         </button>
         <button
           className={select === null ? "active" : null}

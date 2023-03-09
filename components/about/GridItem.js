@@ -48,12 +48,3 @@ export const GridItem = ({ post }) => {
     </Link>
   );
 };
-
-/* <NewsThumbnail
-src={post?.better_featured_image.source_url || "/images/nike.jpg"}
-imgWidth={post?.better_featured_image?.media_details.width || 1920}
-imgHeight={post?.better_featured_image?.media_details.height || 1080}
-title={post?.title.rendered || "bauhaus earth"}
-excerpt={post?.yoast_head_json.og_description}
-link={`/news/${post?.slug}`}
-/> */
