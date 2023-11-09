@@ -33,8 +33,8 @@ export function Footer({}) {
       </div>
       <p>
         contact me:
-        <a className="email" href="mailto:aaron@xeleven.tech">
-          aaron@xeleven.tech
+        <a className="email" href="mailto:hello@aaronjcunningham.com">
+          hello@aaronjcunningham.com
         </a>
       </p>
       <p id="copyright">
