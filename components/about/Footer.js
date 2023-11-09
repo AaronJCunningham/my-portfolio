@@ -41,11 +41,11 @@ export function Footer({}) {
         All Rights Reserved{" "}
         <a
           className="reverse-link"
-          href="https://xeleven.tech"
+          href="https://aaronjcunningham.com"
           target="_blank"
           rel="noreferrer"
         >
-          XELEVEN Metaverse & Web3 Studio
+          Aaron J. Cunningham
         </a>{" "}
         - 2022
       </p>
