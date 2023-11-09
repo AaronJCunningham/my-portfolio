@@ -47,7 +47,7 @@ export function Footer({}) {
         >
           Aaron J. Cunningham
         </a>{" "}
-        - 2022
+        - 2023
       </p>
     </footer>
   );
